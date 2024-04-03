@@ -7,8 +7,6 @@
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
-
-
 }
 
 .headerbar{
@@ -89,6 +87,10 @@
     cursor: pointer;
 }
 
+input[type="search"] {
+    color: black; 
+}
+
 @media only screen and (max-width: 768px){
     .header .nav, .header .account{
         display: none;
@@ -108,6 +110,7 @@
         top: 0;
         width: 100%;
         right: -100%;
+        transition: all 0.5s;
         bottom: 0;
         background-color: #0b161a;
     }
